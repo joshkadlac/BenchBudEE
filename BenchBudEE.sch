@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/5/2014 9:15:38 PM
+EESchema Schematic File Version 2  date 2/5/2014 10:05:50 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -89,15 +89,19 @@ F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 7700 700  1450 1150
+S 7700 750  1450 1150
 U 52F19E13
 F0 "Fan" 50
 F1 "Fan.sch" 50
-F2 "Power+" O R 9150 950 60 
-F3 "Power-" I R 9150 1100 60 
-F4 "Tach" I R 9150 1250 60 
-F5 "TachOUT" O L 7700 1250 60 
-F6 "FanIn" I L 7700 1000 60 
+F2 "Power+" O R 9150 1000 60 
+F3 "Power-" I R 9150 1150 60 
+F4 "Tach" I R 9150 1300 60 
+F5 "TachOUT" O L 7700 1750 60 
+F6 "FanIn" I L 7700 900 60 
+F7 "Current Measure" O L 7700 1650 60 
+F8 "MISO" O L 7700 1150 60 
+F9 "MOSI" I L 7700 1050 60 
+F10 "SCLK" I L 7700 1250 60 
 $EndSheet
 $Sheet
 S 10000 1300 1000 5200
