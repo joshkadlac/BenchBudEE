@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/7/2014 9:37:10 PM
+EESchema Schematic File Version 2  date 2/8/2014 12:16:58 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 9
 Title ""
 Date "8 feb 2014"
 Rev ""
@@ -175,17 +175,6 @@ Wire Wire Line
 	5850 3400 7400 3400
 Wire Wire Line
 	6000 3600 6000 3050
-$Comp
-L +12V #PWR?
-U 1 1 52F5A4D7
-P 6000 2350
-F 0 "#PWR?" H 6000 2300 20  0001 C CNN
-F 1 "+12V" H 6000 2450 30  0000 C CNN
-F 2 "" H 6000 2350 60  0000 C CNN
-F 3 "" H 6000 2350 60  0000 C CNN
-	1    6000 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 2350 6000 2550
 Connection ~ 6000 3400
@@ -267,4 +256,15 @@ Wire Wire Line
 	7300 2650 7300 3200
 Wire Wire Line
 	7300 3200 7400 3200
+$Comp
+L +12P #PWR?
+U 1 1 52F64896
+P 6000 2350
+F 0 "#PWR?" H 6000 2320 30  0001 C CNN
+F 1 "+12P" H 6000 2450 30  0000 C CNN
+F 2 "" H 6000 2350 60  0000 C CNN
+F 3 "" H 6000 2350 60  0000 C CNN
+	1    6000 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
