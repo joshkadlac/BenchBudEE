@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/8/2014 12:16:58 PM
+EESchema Schematic File Version 2  date 2/9/2014 9:38:42 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "8 feb 2014"
+Date "10 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,13 +46,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 2550 3400 0    60   Input ~ 0
-Din +
+RELAY_+
 Text HLabel 2550 3750 0    60   Output ~ 0
-Din -
+RELAY_-
 Text HLabel 9150 3100 2    60   BiDi ~ 0
-NC
+RELAY_NC
 Text HLabel 9150 3300 2    60   BiDi ~ 0
-NO
+RELAY_NO
 $Comp
 L SPDT_RELAY K?
 U 1 1 52F59239
@@ -245,7 +245,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5400 5300 5500
 Text HLabel 9150 2650 2    60   BiDi ~ 0
-COM
+RELAY_COM
 Wire Wire Line
 	9150 3300 8200 3300
 Wire Wire Line

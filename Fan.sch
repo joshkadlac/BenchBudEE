@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/8/2014 12:16:58 PM
+EESchema Schematic File Version 2  date 2/9/2014 9:38:42 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "8 feb 2014"
+Date "10 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,15 +46,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 7300 3850 2    60   Output ~ 0
-Power+
-Text HLabel 7300 4100 2    60   Input ~ 0
-Power-
-Text HLabel 9800 4200 2    60   Input ~ 0
-Tach
+FAN_OUT_+
+Text HLabel 7300 4100 2    60   Output ~ 0
+FAN_OUT-
+Text HLabel 7300 4400 2    60   Input ~ 0
+TACH_IN
 Text HLabel 1200 4500 0    60   Output ~ 0
-TachOUT
+TACH_MEAS_
 Text HLabel 1400 4200 0    60   Input ~ 0
-FanIn
+FAN_EN_N
 $Comp
 L LM324 U?
 U 1 1 52F2F2D6
@@ -253,10 +253,6 @@ Connection ~ 4250 3450
 Wire Wire Line
 	4250 4100 4250 4050
 Wire Wire Line
-	9800 4200 9800 5650
-Wire Wire Line
-	9800 5650 1450 5650
-Wire Wire Line
 	1450 5650 1450 4500
 Wire Wire Line
 	1450 4500 1200 4500
@@ -284,4 +280,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 4150 1450 4200
 Connection ~ 1450 4200
+Wire Wire Line
+	7300 4400 7200 4400
+Wire Wire Line
+	7200 4400 7200 5650
+Wire Wire Line
+	7200 5650 1450 5650
 $EndSCHEMATC
